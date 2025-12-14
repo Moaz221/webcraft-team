@@ -1,5 +1,9 @@
 # 1️⃣ Clone the repository
-git clone https://github.com/WebCraft-Team/webcraft-website.git
+
+In VS Code : 
+1- Ctrl + Shift + P
+2 - git:clone
+3 - https://github.com/WebCraft-Team/webcraft
 
 # 2️⃣ Go to project directory
 cd webcraft-website
