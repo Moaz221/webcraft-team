@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: #000000;
+}
+
+.container h2 {
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 32px;
+}
+
+.class-row {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 25px;
+}
+
+.class-col {
+  background: #1e1e1e;
+  border-radius: 10px;
+  padding: 10% 15%;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: white;
+}
+
+.class-col p {
+  font-size: 22px;
+}
+
+.class-col h3 {
+  font-size: 44px;
+  margin: 20px 0 40px;
+  font-weight: 500;
+}
+.class-col h3 span {
+  font-size: 16px;
+}
+
+.class-col ul {
+  text-align: left;
+  margin: 20px 0;
+  color: #ddd;
+  list-style: none;
+}
+
+.class-col ul li {
+  margin: 15px 0;
+}
+
+.class-col ul li::before {
+  content: '\2022';
+  color: tomato;
+  font-weight: bold;
+  margin-right: 8px;
+}
+.class-col button {
+  width: 100%;
+  padding: 14px 0;
+  border: none;
+  background: tomato;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+.class-col button:hover {
+  background: #e89e8e;
+}
